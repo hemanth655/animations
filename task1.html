@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         justify-content: center;
+         align-items: center;
+        }
+
+      
+      .google {
+        display: flex;
+        align-items: center;
+        height: 80vh;
+        justify-content: center;
+       }
+      .k1{
+        width: 20px;
+        height: 20px;
+        background-color:blue;
+        border-radius: 50%;
+        animation: wave 0.3s 2s 4 alternate;
+        transition-timing-function: linear;
+
+      }
+      .k2{
+        width: 20px;
+        height: 20px;
+        background-color:red;
+        border-radius: 50%;
+        animation: wave 0.4s 2s 4 alternate;
+        transition-timing-function: linear;
+      }
+      .k3{
+        width: 20px;
+        height: 20px;
+        background-color:yellow;
+        border-radius: 50%;
+        animation: wave 0.5s 2s 4 alternate;
+        transition-timing-function: linear;
+      }
+      .k4{
+        width: 20px;
+        height: 20px;
+        background-color:green;
+        border-radius: 50%;
+        animation: wave 0.6s 2s 4 alternate;
+        transition-timing-function: linear;
+      }
+      @keyframes  wave{
+        0%{
+          transform: translateX(0px) translateY(0px);
+        }
+        25%{
+          transform: translateX(0px) translateY(20px);
+        }
+        50%{
+          transform: translateX(0px) translateY(30px);
+        }
+        75%{
+          transform: translateX(0px) translateY(40px);
+        }
+        100%{
+          transform: translateX(0px) translateY(50px);
+        }
+        
+      }
+    </style>
+</head>
+<body>
+  <div class="google">
+    <div class="k1"></div>&nbsp;&nbsp;
+    <div class="k2"></div>&nbsp;&nbsp;
+    <div class="k3"></div>&nbsp;&nbsp;
+    <div class="k4"></div>
+    </div>
+  </body>
+</html>
